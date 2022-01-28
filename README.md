@@ -64,6 +64,22 @@ Here are some screenshots of the point cloads:
 
 
 # charts and plots:
+The program provides us with the error in each iteration and the runtime of the Algorithm(ICP or tr-ICP) at the end of each run.
+
+Note: the following charts are obtained Usiong Excel.The runtime console results and the charts are available in Results.xlsx file.
+
+1- the decrease of the Error in ICP during iterations:
+
+![image](https://user-images.githubusercontent.com/72257286/151469849-668c0c63-af44-48c7-9b2c-1bf743d2d055.png)
+
+
+
+
+
+
+
+
+
 
 
 
