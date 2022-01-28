@@ -101,12 +101,31 @@ Note: the following charts are obtained Usiong Excel.The runtime console results
 
 ![image](https://user-images.githubusercontent.com/72257286/151470292-a91a0dba-7a43-4629-b0d5-828d1e0e9897.png)
 
+7- ICP Runtime Bar chart
 
-7: Average Runtime and Errors for Ech algorithm:
-
-![image](https://user-images.githubusercontent.com/72257286/151470450-77f436fb-7223-4419-aef9-d6a38d5c69dd.png)
+![image](https://user-images.githubusercontent.com/72257286/151487372-6e7b8671-cc11-4916-b851-f4d921b9f2d8.png)
 
 
+
+8- Tr-ICP Runtime bar chart
+
+![image](https://user-images.githubusercontent.com/72257286/151487415-4b27916f-4c13-4b52-a7c6-5d23da929c7b.png)
+
+
+9-ICP Error Bar chart
+
+![image](https://user-images.githubusercontent.com/72257286/151487453-373357a7-7537-4df2-9a02-8a02c1996a01.png)
+
+
+10- Tr_ICP Bar cahrt
+
+![image](https://user-images.githubusercontent.com/72257286/151487486-42c52676-1ea0-41d5-9944-c507a8fb0eb9.png)
+
+
+
+11- Average Runtime and Errors for Ech algorithm:
+
+![image](https://user-images.githubusercontent.com/72257286/151487531-c7aa8b94-5a6e-44df-8edd-1bdffdcfd078.png)
 
 
 # conclustion
