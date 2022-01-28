@@ -1,14 +1,14 @@
-# pointRegistration
+# PointRegistration
 
-In this project, ICP and Tr-Icp are implemented to obtain the point cload registration.
-the code take two different point cloads and tries to find the proper transformation to register the two point partially-overlaping point cloads.
+In this project, ICP and Tr-ICP are implemented to obtain the pointCload registration.
+The code take two different pointCloads and tries to find the proper transformation to register the two partially-overlaping point cloads.
 
-Different point cloads are rotated using  saveRotated() functoin. also Gaussian noise with 0 mean and standard deviation of 0.1 is added to one of the point cloads to observe the effect of noise in the corresponding algorithm.
+Different pointCloads are rotated using  saveRotated() function. Also Gaussian noise with 0 mean and standard deviation of 0.1,0.05 and 0.2 is added to one of the point cloads to observe the effect of noise in the corresponding algorithm.Also Rotation and Gaussian noise were applied to a point cload to observe the effect of both factors at the same time.
 
 
-Note:A python script was utilized to break a single point cload to two different overlapping Pointcloads which was ran on Google Colab service to speed up the process. the script can be found with the name pointCload.py in the files 
+Note:A python script was utilized to break a single point cload to two different overlapping Pointcloads which was ran on Google Colab service to speed up the process. the script can be found with the name "pointCload.py" in the files 
 
-Here are some screenshots of the point cloads:
+Here are some screenshots of the pointCloads:
 
 1-Two point cloads of Aloe (obtained from the first Assignment output) together:
 
@@ -128,7 +128,7 @@ Note: the following charts are obtained Usiong Excel.The runtime console results
 ![image](https://user-images.githubusercontent.com/72257286/151487531-c7aa8b94-5a6e-44df-8edd-1bdffdcfd078.png)
 
 
-# conclustion
+# conclustions
 
 1- According to the Average runtime of the Algorithms, we observe that the ICP is slower than TR-ICP . the main reason is that Tr-ICP trims the point cloads each iteratoin and hence, deals with relatively less data than ICP which results to a significant speedup.
 
