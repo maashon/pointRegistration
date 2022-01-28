@@ -130,7 +130,7 @@ Note: the following charts are obtained Usiong Excel.The runtime console results
 
 # conclustions
 
-1- According to the Average runtime of the Algorithms, we observe that the ICP is slower than TR-ICP . the main reason is that Tr-ICP trims the point cloads each iteratoin and hence, deals with relatively less data than ICP which results to a significant speedup.
+1- According to the runtime of the Algorithms, we observe that the ICP is slower than TR-ICP . the main reason is that Tr-ICP trims the point cloads each iteratoin and hence, deals with relatively less data than ICP which results to a significant speedup.
 
 2- the Tr-ICP algorithm is more robust and performs better on the same set of Point cloads. It does a noticable better job in comparison to ICP.
 
