@@ -407,7 +407,7 @@ void icp(MatrixXd M1, MatrixXd M2, int max_iteration_num) {
     std::cout << "Translation matrix: " << endl << translation_matrix << endl;
 
     saveRegistratoinResultRGB(pcSource, pcTarget, "../ICP_RGB.txt");
-    saveRegistratoinResultRGB(pcSource, pcTarget, "../ICP.xyz");
+    saveRegistratoinResult(pcSource, pcTarget, "../ICP.xyz");
     
     
     
@@ -479,7 +479,7 @@ void tricp(MatrixXd M1, MatrixXd M2, int max_iteration_num) {
     std::cout << "Rotation matrix: " << endl << rotation_matrix << endl;
     std::cout << "Translation matrix: " << endl << translation_matrix << endl;
     saveRegistratoinResultRGB(cvSource, cvTarget, "../TrICP_RGB.txt");
-    saveRegistratoinResultRGB(cvSource, cvTarget, "../TrICP.xyz");
+    saveRegistratoinResult(cvSource, cvTarget, "../TrICP.xyz");
     
 }
 
