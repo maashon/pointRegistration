@@ -101,14 +101,18 @@ Note: the following charts are obtained Usiong Excel.The runtime console results
 
 7: Average Runtime and Errors for Ech algorithm:
 
-	Runtime	Error
-ICP Average	52.94176429	10.18216936
-Tr-ICP Average 	41.55911571	42.05598366
-![image](https://user-images.githubusercontent.com/72257286/151470395-19bceb39-254b-4cbd-9f6a-51f48309a16a.png)
+![image](https://user-images.githubusercontent.com/72257286/151470450-77f436fb-7223-4419-aef9-d6a38d5c69dd.png)
+
 
 
 
 # conclustion
+
+1- According to the Average runtime of the Algorithms, we observe that the ICP is slower than TR-ICP . the main reason is that Tr-ICP trims the point cloads each iteratoin and hence, deals with relatively less data than ICP which results to a significant speedup.
+
+2- the Tr-ICP algorithm is more robust and performs better on the same set of Point cloads. It does a noticable better job in comparison to ICP.
+
+3- Adding Gaussian noise to the Point cloads gives the model a hard time to do the registratoin as it adds some outliers to the pointcload. If we take a look and runtime of the algorithms, the gaussian added noise case takes significantly more time (of course more iteratoins) to converge.
 
 
 
