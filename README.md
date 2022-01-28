@@ -73,6 +73,47 @@ Note: the following charts are obtained Usiong Excel.The runtime console results
 ![image](https://user-images.githubusercontent.com/72257286/151469849-668c0c63-af44-48c7-9b2c-1bf743d2d055.png)
 
 
+2- The decrease of the Error in tr-ICP during iterations:
+
+
+![image](https://user-images.githubusercontent.com/72257286/151469974-4ddbf290-8c85-4a69-acbf-9a302701f037.png)
+
+
+3- Errors Of ICP algorithms for different point-cload pairs:
+
+![image](https://user-images.githubusercontent.com/72257286/151470135-2fae530f-94fa-4d44-a2ac-1392fa475a38.png)
+
+
+4-ICP Rintime For Different point-cload pairs:
+
+![image](https://user-images.githubusercontent.com/72257286/151470197-a879dcb2-cc76-4059-964a-9b691b415070.png)
+
+
+5- Errors Of Tr-ICP algorithms for different point-cload pairs:
+
+![image](https://user-images.githubusercontent.com/72257286/151470237-12a86060-2d35-4e98-92c8-0faee1e57445.png)
+
+
+6-Tr-ICP Rintime For Different point-cload pairs:
+
+![image](https://user-images.githubusercontent.com/72257286/151470292-a91a0dba-7a43-4629-b0d5-828d1e0e9897.png)
+
+
+7: Average Runtime and Errors for Ech algorithm:
+
+	Runtime	Error
+ICP Average	52.94176429	10.18216936
+Tr-ICP Average 	41.55911571	42.05598366
+![image](https://user-images.githubusercontent.com/72257286/151470395-19bceb39-254b-4cbd-9f6a-51f48309a16a.png)
+
+
+
+# conclustion
+
+
+
+
+
 
 
 
