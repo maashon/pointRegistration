@@ -5,6 +5,9 @@ the code take two different point cloads and tries to find the proper transforma
 
 Different point cloads are rotated using  saveRotated() functoin. also Gaussian noise with 0 mean and standard deviation of 0.1 is added to one of the point cloads to observe the effect of noise in the corresponding algorithm.
 
+
+Note:A python script was utilized to break a single point cload to two different overlapping Pointcloads which was ran on Google Colab service to speed up the process. the script can be found with the name pointCload.py in the files 
+
 Here are some screenshots of the point cloads:
 
 1-Two point cloads of Aloe (obtained from the first Assignment output) together:
